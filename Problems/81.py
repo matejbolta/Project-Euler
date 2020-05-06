@@ -53,5 +53,5 @@ def fun(matrix):
     return matrix[len(matrix) - 1][len(matrix) - 1] #clen desno spodaj
 
 print(fun(matrika))
-#427337
+# 427337
 #linux, pognano v terminalu ker mi taski ne delajo in jih ne morem vzpostavit :( 'no such file in directory'
