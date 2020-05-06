@@ -55,3 +55,4 @@ def fun(matrix):
 print(fun(matrika))
 # 427337
 #linux, pognano v terminalu ker mi taski ne delajo in jih ne morem vzpostavit :( 'no such file in directory'
+#edit, na windowsu taski delajo normalno. tudi git mi ni hotel pushat na linuxu, ceprav je prej ze delal
