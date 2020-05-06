@@ -16,7 +16,7 @@ matrix.txt, a 31K text file containing an 80 by 80 matrix.
 #vseh moznih poti je 160 nad 80, torej 160! / 2*80!  =  3.3e165  :)  gremo torej efektivno
 import os
 os.getcwd() #Project-Euler
-os.chdir('txt_files')
+os.chdir('Project-Euler/txt_files')
 
 
 #naredimo matriko
@@ -51,3 +51,7 @@ def fun(matrix):
             matrix[i][j] += pristevek  #sproti spreminjamo matriko
 
     return matrix[len(matrix) - 1][len(matrix) - 1] #clen desno spodaj
+
+print(fun(matrika))
+#427337
+#linux, pognano v terminalu ker mi taski ne delajo in jih ne morem vzpostavit :( 'no such file in directory'
