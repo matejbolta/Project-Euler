@@ -16,7 +16,7 @@ matrix.txt, a 31K text file containing an 80 by 80 matrix.
 #vseh moznih poti je 160 nad 80, torej 160! / 2*80!  =  3.3e165  :)  gremo torej efektivno
 import os
 os.getcwd() #Project-Euler
-os.chdir('Project-Euler/txt_files')
+os.chdir('Project-Euler/txt_files') #funny, sele pol sm ugotovu da tole actually works on windows, with forward /
 
 
 #naredimo matriko
