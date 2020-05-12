@@ -15,6 +15,7 @@ EVERY starting number will eventually arrive at 1 or 89.
 
 How many starting numbers below ten million will arrive at 89?
 '''
+
 def naslednji(n):
     return sum([int(i)**2 for i in str(n)]) #izpeljano
 

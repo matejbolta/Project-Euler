@@ -33,7 +33,7 @@ import itertools
 
 #iscemo, kdaj je ratio = prime / diagonalne  <  0.1
 
-def prime(n): #iz vaj
+def prime(n):
     if n <= 2:
         return n == 2
     elif n % 2 == 0:

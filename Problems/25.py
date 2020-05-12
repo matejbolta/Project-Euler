@@ -23,7 +23,7 @@ What is the index of the first term in the Fibonacci sequence to contain 1000 di
 
 #import sys
 #sys.setrecursionlimit(10 ** 6)
-#dela tudi brez tega ker je tako nizka stevilka
+#dela tudi brez
 
 def memoiziraj(funkcija):
     rezultati = {}
@@ -38,7 +38,6 @@ def fib(n):
     if n == 1 or n == 2:
         return 1
     return fib(n - 1) + fib(n - 2)
-
 
 from itertools import count
 sez = count(1)  #neskoncen sez  [1, 2, 3, 4, 5, ...]

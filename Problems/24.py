@@ -24,5 +24,5 @@ for i, st in enumerate(x):
     x[i] = f'{st}'
 x = ''.join(x)
 
-#kakšno mučenje za nekaj očitnega. integerjev se neda joinat.
+#...
 print(x)

@@ -13,11 +13,5 @@ def lcm(x, y):
 x = 1
 for i in range (2, 21):
     x = lcm(x, i)
-
-
     
 print(x)
-
-
-
-

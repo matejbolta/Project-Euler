@@ -23,7 +23,6 @@ def tripetsest(k):
     #zaradi hitrosti najprej preverimo hexagonal, nato pentagonal, nato triangle
     return ((1 + (1+8*k)**(1/2))/4).is_integer() and ((1 + (1+24*k)**(1/2))/6).is_integer() and ((-1 + (1 + 8*k)**(1/2)) / 2).is_integer()
 
-
 for i in count(40756):
     if not i % 10**6: #vsako miljonto stevilo sprinta da vidimo napredek
         print(i)

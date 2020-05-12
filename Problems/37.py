@@ -39,7 +39,6 @@ def truncatable(n):
         shranjen_n = int(str((int(str(shranjen_n)[::-1]) // 10))[::-1]) # n = n brez prve števke
     return True
 
-
 kandidat = 10 #za <10 ne upoštevamo
 sez = []
 while len(sez) != 11:

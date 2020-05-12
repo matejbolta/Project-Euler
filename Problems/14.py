@@ -21,10 +21,6 @@ def memoiziraj(funkcija):
         return rezultati[x]
     return mem_funkcija
 
-
-
 x = max(range(1, 1000000), key=dolzina_zaporedja)
-
-
 
 print(x)

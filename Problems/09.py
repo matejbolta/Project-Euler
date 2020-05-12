@@ -10,7 +10,6 @@ Find the product abc.
 #a**2 + b**2 = c**2
 #a + b + c = 1000
 
-
 for a in range(1, 1001):
 	for b in range(a + 1, 1001):
 		c = 1000 - a - b

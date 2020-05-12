@@ -53,6 +53,7 @@ a 1001 by 1001 spiral formed in the same way?
 #13 17 21 25     +4
 #31 37 43 49     +6
 #57 65 73 81     +8
+
 diagonala = 1
 prištevam = 1
 for korak in range(2, 1001, 2): #i je sedaj korak po koliko se premikamo. teh i-jev je 500.
@@ -64,7 +65,3 @@ for korak in range(2, 1001, 2): #i je sedaj korak po koliko se premikamo. teh i-
 #nakoncu izvajanja mora biti vsota v diagoala
 
 print(diagonala) #669171001
-
-#mam 3x3 matriko. korak je 4
-#mam 1000x1000 matriko. korak za naprej je 1001, oziroma bi biu. ampak se ustavimo
-

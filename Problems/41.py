@@ -68,6 +68,6 @@ najvecji = max(panpri)
 print(f'tole je najvecja stevilka od ugodnih:{najvecji}')
 
 #pan narejena!
-#stevilo pandigital stevil:409113            (pravilno sem jih ocenil!!)
+#stevilo pandigital stevil:409113            (pravilno sem jih ocenil)
 #stevilo ugodnih stevil:538
 #tole je najvecja stevilka od ugodnih: 7652413

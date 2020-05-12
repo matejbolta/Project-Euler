@@ -13,7 +13,7 @@ contains 21 terms, and is equal to 953.
 Which prime, below one-million, can be written as the sum of the most consecutive primes?
 '''
 
-def prime(n): #iz vaj
+def prime(n):
     if n <= 2:
         return n == 2
     elif n % 2 == 0:
@@ -31,7 +31,6 @@ for i in range(2, 10 ** 6):
     if prime(i):
         prast.append(i)
 print('prast narejena')
-
 
 najdaljsa, resitev = 0, 0
 for i, prastevilo in enumerate(prast):
@@ -61,5 +60,4 @@ prast narejena
 60000
 70000
 najvecja vsota:997651, stevilo clenov  v vsoti:543
->>> 
 '''

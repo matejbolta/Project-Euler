@@ -12,6 +12,7 @@ If the word value is a triangle number then we shall call the word a triangle wo
 Using words.txt (right click and 'Save Link/Target As...'), a 16K text file containing
 nearly two-thousand common English words, how many are triangle words?
 '''
+
 import os
 os.getcwd() #UVP_2020
 os.chdir('project_euler')
@@ -45,5 +46,6 @@ for beseda in sez:
     stevilo = beseda2stevilo(beseda)
     if stevilo in tri:
         ugodne.append(beseda)
+
 #len(ugodne)
 #162

@@ -16,7 +16,4 @@ def zmnozi_stevila(niz):
 
 a = max(zmnozi_stevila(x[i : i + 13]) for i in range(len(x) - 12))
 
-
-
 print(a)
-

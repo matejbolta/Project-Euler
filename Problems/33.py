@@ -23,9 +23,6 @@ for desetica1 in range(1, 10):
                             print(desetica1, enica1, desetica2, enica2)
                             sez.append('_')
 
-
-
-
 print(len(sez)) #teh števil je 
 '''
 1 6 6 4   1/4
@@ -34,6 +31,7 @@ print(len(sez)) #teh števil je
 4 9 9 8   1/2
 4
 '''
+
 stevec = 1*1*2*1     #2
 imenovalec = 4*5*5*2     #200
 #produkt = 2/200 = 1/100

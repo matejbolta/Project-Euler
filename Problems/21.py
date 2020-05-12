@@ -30,8 +30,6 @@ def je_amicable(a):  #to pa rabim
 
 #koliko je vsota vseh amicable stevil 1 - 9 999?
 
-#from itertools import count
-
 rtr = 0
 for i in range(1, 10000):
     if je_amicable(i):

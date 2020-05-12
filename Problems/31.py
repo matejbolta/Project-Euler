@@ -21,14 +21,12 @@ def dvojka(n):
         nacini += enka(n - 2*i)
     return nacini
 
-
 #N iz 1p 2p 5p: vsota(i od 0 do vkl. 40) ((N - 5 * i) // 2)
 def petka(n):
     nacini = 0
     for i in range((n // 5) +1):
         nacini += dvojka(n - 5*i)
     return nacini
-
 
 #N iz 1p 2p 5p 10p
 def desetka(n):
@@ -37,14 +35,12 @@ def desetka(n):
         nacini += petka(n - 10*i)
     return nacini
 
-
 #n iz 1p ... 20p
 def dvajsetka(n):
     nacini = 0
     for i in range((n // 20) +1):
         nacini += desetka(n - 20*i)
     return nacini
-
 
 #N iz 1p ... 50p
 def petdesetka(n):

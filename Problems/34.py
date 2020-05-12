@@ -26,6 +26,4 @@ def resitev(n):
 #resitev(10**5) = 40730
 #resitev(10**6) = 40730
 #resitev(10**7) = 40730
-#ok.
-
-
+#ok

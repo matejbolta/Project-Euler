@@ -11,6 +11,7 @@ Find the pair of pentagonal numbers, Pj and Pk,
 for which their sum and difference are pentagonal
 and D = |Pk − Pj| is minimised; what is the value of D?
 '''
+
 #zdaj pa že poznam generatorje
 #zaporedni pentagonal števili sta si čedalje bolj narazen
 def generator_pentagonalnih():
@@ -25,7 +26,6 @@ baza = set([next(gen1) for _ in range(10**4)])
 
 gen2 = generator_pentagonalnih()
 
-
 x = 10**1000
 for z, _ in enumerate(baza):
     if not z % 1000:
@@ -35,7 +35,6 @@ for z, _ in enumerate(baza):
         if pent + bazni in baza and pent - bazni in baza:
             x = min(x, abs(pent - bazni))
             print(f'---------nov najmanjsi: {x}')
-
 
 '''
 napredek: 0

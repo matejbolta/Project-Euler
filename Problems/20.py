@@ -9,16 +9,12 @@ and the sum of the digits in the number 10! is 3 + 6 + 2 + 8 + 8 + 0 + 0 = 27.
 Find the sum of the digits in the number 100!
 '''
 
-
 def vsota_stevk(n):
     if n == 0:
         return 0
     else:
         return n % 10 + vsota_stevk(n // 10)
 
-
 from math import factorial
-
-
 
 print(vsota_stevk(factorial(100)))

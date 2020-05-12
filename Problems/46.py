@@ -14,7 +14,8 @@ It turns out that the conjecture was false.
 What is the smallest odd composite that cannot be
 written as the sum of a prime and twice a square?
 '''
-def prime(n): #iz vaj
+
+def prime(n):
     if n <= 2:
         return n == 2
     elif n % 2 == 0:
@@ -54,9 +55,7 @@ while True:
     print(f'našli smo to število:{x}')
     break
 
-
 '''
 prastevila narejena
 našli smo to število:5777
->>> 
 '''

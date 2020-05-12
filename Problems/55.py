@@ -31,6 +31,7 @@ themselves Lychrel numbers; the first example is 4994.
 
 How many Lychrel numbers are there below ten-thousand?
 '''
+
 def iteracija(n):
     return n + int(str(n)[::-1])
 

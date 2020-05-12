@@ -27,7 +27,6 @@ def zamakni(x):
     zlepek = niz[1:] + niz[0]
     return zlepek
 
-
 def je_krozno_prastevilo(n):
     '''true, če je, false, če ni'''
     if not je_prastevilo(n):

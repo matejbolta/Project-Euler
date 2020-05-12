@@ -29,13 +29,11 @@ matrika = [
 [1, 70, 54, 71, 83, 51, 54, 69, 16, 92, 33, 48, 61, 43, 52, 1, 89, 19, 67, 48]
 ]
 
-
 def produkt_4ih(zacetni_x, zacetni_y, smer_x, smer_y): #smer je 1 ali 0
 	produkt = 1
 	for i in range(4):
 		produkt *= matrika[zacetni_y + i * smer_y][zacetni_x + i * smer_x]
 	return produkt
-
 
 resitev = 0
 #izberem x in y kot v koordinatnem sistemu
@@ -50,8 +48,4 @@ for y in range(20):
 		if x >= 3   and y <= 16: #diagonalno levo
 			resitev = max(produkt_4ih(x, y, -1, 1), resitev)
 
-
 print(resitev)
-
-
-

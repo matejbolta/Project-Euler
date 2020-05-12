@@ -19,11 +19,12 @@ It can be seen that 1/7 has a 6-digit recurring cycle.
 Find the value of d < 1000 for which 1/d contains the longest recurring cycle
 in its decimal fraction part.
 '''
+#zapis x na i decimalk
+#f'{x:.if}'
 
 seznam = []
 for i in range(2, 1000):
     seznam.append(1 / i)
-
 
 def dolzina_periode(n):
     while True: #prestavi prvo nenicelno decimalko na prvo mesto
@@ -53,7 +54,6 @@ def dolzina_periode(n):
             break
 
     return dolzina
-    
 
 resitev = max(seznam, key=dolzina_periode)
 
@@ -65,12 +65,6 @@ print(str(Fraction(resitev)))
 #zaradi pythonovega zaokrozevanja vrne priblizek in ne 1 / 81
 #online kalkulator je razrešil zadevo
 
-
-
-
 #rezultat 81 je napacen :(
     #mission abort
 #---------------------------------------------------------
-
-#zapis x na i decimalk
-#f'{x:.if}'

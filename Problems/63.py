@@ -5,6 +5,7 @@ Similarly, the 9-digit number, 134217728=8**9, is a ninth power.
 
 How many n-digit positive integers exist which are also an n-th power?
 '''
+
 def taka_stevila_do(x=10 ** 4):
     stevec = 0
     for i in range(1, x):
@@ -19,7 +20,7 @@ def taka_stevila_do(x=10 ** 4):
 #     **5 27
 #     **6 30
 #     **7 32
-#nevem do koliko moram da bo ojler sprejel, pa tudi dela zelo dolgo 
+#dela zelo dolgo 
 
 #------------
 

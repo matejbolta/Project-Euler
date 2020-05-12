@@ -40,9 +40,7 @@ for a in range(1, 10**4):
             vsota.add(a*b)
             sez.append(a*b)
 
-
 print(f'dolzina mnozice: {len(vsota)}, vsota mnozica: {sum(vsota)}\nza primerjavo, dolzina seznama: {len(sez)}')
-
 
 '''
 dolzina mnozice: 7, vsota mnozica: 45228

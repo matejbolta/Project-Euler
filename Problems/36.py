@@ -5,6 +5,7 @@ GOOGLE:
 >>> bin(173)
 '0b10101101'
 '''
+
 def desetiskiVbinaren(desetiski):
     niz = bin(desetiski)
     return int(niz[2:])
@@ -25,4 +26,5 @@ vsota = 0
 for i in range(1, 10**6):
     if palindrom(i) and palindrom(desetiskiVbinaren(i)):
         vsota += i
+
 print(vsota)

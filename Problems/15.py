@@ -1,4 +1,4 @@
-#kombinatorika = lajf
+#kombinatorika
 
 from math import factorial as fac
 

@@ -6,7 +6,6 @@ Find the sum of all the primes below two million.
 import sys
 sys.setrecursionlimit(2000000)
 
-#iz vaj
 def je_deljivo_s_katerim_od(n, seznam):
     '''Vrne 'True' natanko tedaj, ko je število 'n' deljivo
     z vsaj kakšnim številom iz seznama števil 'seznam'. '''
@@ -26,10 +25,7 @@ def prastevila_do(n):
         return prastevila_do(n - 1) + [n]
     else:
         return prastevila_do(n - 1)
-# \iz vaj
 
 x = sum(prastevila_do(2000000))
 
 print(x)
-
-

@@ -3,15 +3,12 @@ By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that 
 What is the 10 001st prime number?
 '''
 
-
-
-# # iz vaj:
 # def je_deljivo_s_katerim_od(n, seznam):
 #     if seznam == []:
 #         return False
 #     else:
 #         return n % seznam[0] == 0 or je_deljivo_s_katerim_od(n, seznam[1:])
-
+#
 # def prastevila_do(n):
 #     if n <= 1:
 #         return []
@@ -19,21 +16,12 @@ What is the 10 001st prime number?
 #         return prastevila_do(n - 1)
 #     else:
 #         return prastevila_do(n - 1) + [n]
-
-# def je_prastevilo(n):
-#     if n <= 1:
-#         return False
-#     else:
-#         prastevila = prastevila_do(round(n ** 0.5))
-#         return not je_deljivo_s_katerim_od(n, prastevila)
-# # \iz vaj
-
+#
 # x = prastevila_do(10 ** 6)
-
+#
 # print(x[1001])
-
-# #presežemo rekurzijo, vendar to deluje
-
+#
+# #presežemo rekurzijo, vendar bi to moglo delovati.
 
 def prime(n):
     if n <= 2:
@@ -57,5 +45,3 @@ while True:
         print(n)
         break
     n += 1
-
-#rewrote that en mesec kasneje...
