@@ -1,4 +1,4 @@
-Project-Euler
+project-euler
 =============
 
 Zbirka rešitev nalog iz Project Eulerja.
